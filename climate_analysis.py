@@ -3,6 +3,9 @@ import temp_conversion
 import signal
 signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
+# this is commented.
+""" the 3 quotes does not work for me.
+
 script = sys.argv[0]
 assert len(sys.argv) == 2, script + ": requires filename"
 filename = sys.argv[1]
