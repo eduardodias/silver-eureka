@@ -5,6 +5,9 @@ signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
 # this is commented.
 """ the 3 quotes does not work for me.
+ah, i have to close them also
+"""
+
 
 script = sys.argv[0]
 assert len(sys.argv) == 2, script + ": requires filename"
@@ -31,3 +34,6 @@ for line in climate_data:
             print(str(celsius)+", "+str(kelvin))
 
 #todo
+
+
+""" huuum """
